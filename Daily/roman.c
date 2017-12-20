@@ -14,9 +14,15 @@ int main(void) {
         if(s[i]=='I')
         a[i]=1;    
              }
-    for(i=x-1;i>0;i--)
+             if(x==1)
+    	{
+    		sum=sum+a[0];
+    	}
+   else 
+   for(i=x-1;i>0;i--)
     {
-        if(a[i]>a[i-1])
+    	
+       if(a[i]>a[i-1])
         {
             sum=a[i]-a[i-1];
         }
