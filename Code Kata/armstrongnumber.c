@@ -12,11 +12,11 @@ int main(void)
     }
     if(sum==n)
     {
-    	printf("Armstrong Number");
+    	printf("Yes");
     }
     else
     {
-    printf("Not a Armstrong Numner");	
+    printf("No");	
     }
     return(0);
 }
