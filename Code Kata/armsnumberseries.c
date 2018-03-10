@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main(void)
 {
-    int n,i,a,m,sum;
+    int n,i,a=0,m,sum;
     scanf("%d%d",&n,&m);
     for(int j=n;j<m;j++)
     {
     a=j;
     sum=0;
-    while(j!=0)
+    while(a!=0)
     {
-    	i=j%10;
+    	i=a%10;
     	sum=sum+(i*i*i);
-    	j=j/10;
+    	a=a/10;
     }
-    if(sum==a)
+    if(sum==j)
     {
-    	printf("%d",sum);
+    	printf("%d\n",sum);
     }
     }
     return(0);
