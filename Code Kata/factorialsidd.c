@@ -2,9 +2,9 @@
 #include<string.h>
 
 int main(void) {
-	int n,fact=1;
-	scanf("%d",&n);
-	for(int i=n;i>0;i--)
+	int a,fact=1;
+	scanf("%d",&a);
+	for(int i=a;i>0;i--)
 	{
 		fact=fact*i;
 	}
